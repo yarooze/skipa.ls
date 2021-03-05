@@ -5,7 +5,7 @@ Local script helper to skip some stuff
 
 
 1. Install `Tampermonkey`, `Greasemonkey` or whatever.
-2. Install Skipa https://github.com/yarooze/skipa.ls/raw/master/skipa.user.js
+2. Install Skipa https://github.com/yarooze/skipa.ls/raw/main/skipa.user.js
 
 
 
