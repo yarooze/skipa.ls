@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Skipa
 // namespace    https://github.com/yarooze/skipa.ls
-// @version     0.0.0
+// @version     0.0.1
 // @description Skip some stuff
 // @author      Yarooze
 // icon         https://github.com/yarooze/skipa.ls/raw/main/Icon.png

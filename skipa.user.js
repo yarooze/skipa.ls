@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name        Skipa
 // namespace    https://github.com/yarooze/skipa.ls
-// @version     0.0.0
+// @version     0.0.1
 // @description Skip some stuff
 // @author      Yarooze
 // icon         https://github.com/yarooze/skipa.ls/raw/main/Icon.png
@@ -23,6 +23,13 @@
                     button.click();
                 }
             });
+            document.querySelectorAll('.ytp-ad-overlay-close-button').forEach(function(button) {
+                if (button) {
+                    console.log('Skip youtube ads overlay button found. Click!');
+                    button.click();
+                }
+            });
     }, 1000);
     // <button class="ytp-ad-skip-button ytp-button">
+    // <button class="ytp-ad-overlay-close-button">
 })();
